@@ -14,8 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
     $section = ['CHARCTHER','COMIC','MOVIE','TV','GAMES','COLLECTIBLES','VIDEO','FAN','NEW','SHOP'];
-    return view('home' , compact('section'));
+    $comics = config('db');
+    
+
+    return view('home' , compact('section','comics'));
+    
 })->name('home');
 
 
