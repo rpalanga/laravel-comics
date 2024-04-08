@@ -32,3 +32,21 @@
         }
     }
 }
+
+#blue-row{
+    
+
+    .element{
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+        img{
+            width: 50px;
+        }
+        .description{
+            color: white;
+
+        }
+    }
+}

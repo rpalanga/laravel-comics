@@ -31,5 +31,38 @@
             </div>
 
         </div>
+        <div id="blue-row" class="contanerier-fluid " style="background-color:#3880F1" >
+            <div class="container  d-flex justify-content-center align-items-center py-3 gap-4">
+
+                <div class="element">
+                    <img src="{{Vite :: asset ('resources/img/buy-comics-digital-comics.png')}}" alt="">
+                    <div class="description">DIGITAL COMICS</div>
+                </div>
+
+                <div class="element">
+                    <img src="{{Vite :: asset ('resources/img/buy-comics-merchandise.png')}}" alt="">
+                    <div class="description">DC MERCHANDISE</div>
+                </div>
+
+                <div class="element">
+                    <img src="{{Vite :: asset ('resources/img/buy-comics-subscriptions.png')}}" alt="">
+                    <div class="description">SUBSCRIPTION</div>
+                </div>
+
+                <div class="element">
+                    <img src="{{Vite :: asset ('resources/img/buy-comics-shop-locator.png')}}" alt="">
+                    <div class="description">COMICS SHOP LOCATOR</div>
+                </div>
+
+
+                <div class="element">
+                    <img src="{{Vite :: asset ('resources/img/buy-dc-power-visa.svg')}}" alt="">
+                    <div class="description">DC POWER VISA</div>
+                </div>
+
+
+
+            </div>
+        </div>
     </main>
 @endsection
