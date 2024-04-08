@@ -17,10 +17,14 @@ Route::get('/', function () {
 
     $section = ['CHARCTHER','COMIC','MOVIE','TV','GAMES','COLLECTIBLES','VIDEO','FAN','NEW','SHOP'];
     $comics = config('db');
+    $listOne = ['Characters','Comics','Movies','TV','Games','Videos','News'];
+    $listTwo = ['Shop DC','Shop DC Collectibles'];
+    $listThree = ['Characters','Comics','Movies','TV','Games','Videos','News'];
+    $listFour = ['Characters','Comics','Movies','TV','Games','Videos','News'];
     
 
-    return view('home' , compact('section','comics'));
-    
+    return view('home' , compact('section','comics', 'listOne', 'listTwo','listThree','listFour'));
+
 })->name('home');
 
 

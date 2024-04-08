@@ -6,7 +6,11 @@
             <img src="{{Vite :: asset ('resources/img/jumbotron.jpg')}}" alt="" class="w-100 p-0 m-0">
         </div>
 
-        <div  class="container-fluid bg-dark py-5">
+        <div  class="container-fluid bg-dark py-5 " style="position:relative">
+
+            <div class=" text-white fw-bolder p-2 " style="background-color:#3880F1; position:absolute;top: 0px; transform: translateY(-50%); left: 80px; ">
+                CURRENT SERIES
+            </div>
 
             <div id="comics" class="container ">
 
@@ -32,7 +36,7 @@
 
         </div>
         <div id="blue-row" class="contanerier-fluid " style="background-color:#3880F1" >
-            <div class="container  d-flex justify-content-center align-items-center py-3 gap-4">
+            <div class="container  d-flex justify-content-center align-items-center py-5 gap-4">
 
                 <div class="element">
                     <img src="{{Vite :: asset ('resources/img/buy-comics-digital-comics.png')}}" alt="">
@@ -64,5 +68,8 @@
 
             </div>
         </div>
+
+        
+
     </main>
 @endsection

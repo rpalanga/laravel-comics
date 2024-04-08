@@ -1,0 +1,20 @@
+#top-footer{
+    background-image: url('/resources/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+    position: relative;
+    overflow: hidden;
+    
+    
+
+    img{
+        position: absolute;
+        right: 50px;
+        width: 35%;
+    }
+
+
+}
